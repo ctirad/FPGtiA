@@ -1,0 +1,85 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -363 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /mnt/data/projekty/VHDL/GTIA/pa.fromHdl.tcl
+# create_project -name GTIA -dir "/mnt/data/projekty/VHDL/GTIA/planAhead_run_1" -part xc6slx25ftg256-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "miniSpartan6-plus.ucf" [current_fileset -constrset]
+Adding file '/mnt/data/projekty/VHDL/GTIA/miniSpartan6-plus.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {gtia.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vga_out.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Serializer_10_1.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {pmg.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {gtia_palette.vhdl}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DVI_OUT.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Component_encoder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clocks.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CLOCK.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top gtia $srcset
+# add_files [list {miniSpartan6-plus.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx25ftg256-3
+WARNING: [Designutils 20-344] File circular dependency detected using rule: define-before-use.
+INFO: [Designutils 20-352] Relaxing define-before-use dependency to only entity and package declarations.
+Using Verific elaboration
+Parsing VHDL file "/opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/mnt/data/projekty/VHDL/GTIA/gtia.vhd" into library work
+WARNING: [HDL 9-946] Actual for formal port videoenable is neither a static name nor a globally static expression [/mnt/data/projekty/VHDL/GTIA/gtia.vhd:606]
+WARNING: [HDL 9-946] Actual for formal port c1 is neither a static name nor a globally static expression [/mnt/data/projekty/VHDL/GTIA/gtia.vhd:630]
+Parsing VHDL file "/mnt/data/projekty/VHDL/GTIA/vga_out.vhd" into library work
+Parsing VHDL file "/mnt/data/projekty/VHDL/GTIA/pmg.vhd" into library work
+Parsing VHDL file "/mnt/data/projekty/VHDL/GTIA/gtia_palette.vhdl" into library work
+Parsing VHDL file "/mnt/data/projekty/VHDL/GTIA/clocks.vhd" into library work
+Loading clock regions from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockRegion.xml
+Loading clock buffers from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockBuffers.xml
+Loading package pin functions from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx25/ftg256/Package.xml
+Loading io standards from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /opt/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/mnt/data/projekty/VHDL/GTIA/miniSpartan6-plus.ucf]
+Finished Parsing UCF File [/mnt/data/projekty/VHDL/GTIA/miniSpartan6-plus.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 0bb2ccf3
+open_rtl_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:16 . Memory (MB): peak = 2900.234 ; gain = 214.324
+WARNING: [Designutils 20-344] File circular dependency detected using rule: define-before-use.
+INFO: [Designutils 20-352] Relaxing define-before-use dependency to only entity and package declarations.
+WARNING: [Designutils 20-344] File circular dependency detected using rule: define-before-use.
+INFO: [Designutils 20-352] Relaxing define-before-use dependency to only entity and package declarations.
+update_compile_order -fileset sim_1
+WARNING: [Designutils 20-344] File circular dependency detected using rule: define-before-use.
+INFO: [Designutils 20-352] Relaxing define-before-use dependency to only entity and package declarations.
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 29 14:08:48 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

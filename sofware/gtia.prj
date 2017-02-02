@@ -1,0 +1,7 @@
+vhdl work "gtia.vhd"
+vhdl work "vga_out.vhd"
+verilog work "Serializer_10_1.v"
+vhdl work "gtia_palette.vhdl"
+verilog work "DVI_OUT.v"
+verilog work "Component_encoder.v"
+verilog work "CLOCK.v"

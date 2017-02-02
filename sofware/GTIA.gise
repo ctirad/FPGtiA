@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="GTIA.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="gtia.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="gtia.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="gtia.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="gtia.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="gtia.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="gtia.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="gtia.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="gtia.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="gtia.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="gtia.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="gtia.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="gtia.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="gtia.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gtia.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="gtia.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="gtia.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="gtia.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="gtia.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="gtia.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="gtia.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="gtia.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="gtia.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="gtia.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="gtia_envsettings.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="gtia_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="gtia_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="gtia_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="gtia_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="gtia_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="gtia_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gtia_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gtia_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="gtia_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="gtia_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gtia_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="gtia_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="gtia_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="gtia_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="gtia_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6340569364604663258" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8468546372452795491" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6820618618948512088" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-1970394750299821092" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452018993" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6267599601051587289" xil_pn:start_ts="1452018993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452705892" xil_pn:in_ck="-5105439831062693617" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="2448007439528765174" xil_pn:start_ts="1452705809">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="gtia.lso"/>
+      <outfile xil_pn:name="gtia.ngc"/>
+      <outfile xil_pn:name="gtia.ngr"/>
+      <outfile xil_pn:name="gtia.prj"/>
+      <outfile xil_pn:name="gtia.stx"/>
+      <outfile xil_pn:name="gtia.syr"/>
+      <outfile xil_pn:name="gtia.xst"/>
+      <outfile xil_pn:name="gtia_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1452019062" xil_pn:in_ck="7954922582821655225" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3050898840895887837" xil_pn:start_ts="1452019061">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452705902" xil_pn:in_ck="-3293673675790684284" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2616042522141956104" xil_pn:start_ts="1452705892">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="gtia.bld"/>
+      <outfile xil_pn:name="gtia.ngd"/>
+      <outfile xil_pn:name="gtia_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1452705987" xil_pn:in_ck="8226122259813448229" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4970266387953126887" xil_pn:start_ts="1452705902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="gtia.pcf"/>
+      <outfile xil_pn:name="gtia_map.map"/>
+      <outfile xil_pn:name="gtia_map.mrp"/>
+      <outfile xil_pn:name="gtia_map.ncd"/>
+      <outfile xil_pn:name="gtia_map.ngm"/>
+      <outfile xil_pn:name="gtia_map.xrpt"/>
+      <outfile xil_pn:name="gtia_summary.xml"/>
+      <outfile xil_pn:name="gtia_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1452706092" xil_pn:in_ck="-5757660390505150242" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-6937897011652631087" xil_pn:start_ts="1452705987">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="gtia.ncd"/>
+      <outfile xil_pn:name="gtia.pad"/>
+      <outfile xil_pn:name="gtia.par"/>
+      <outfile xil_pn:name="gtia.ptwx"/>
+      <outfile xil_pn:name="gtia.unroutes"/>
+      <outfile xil_pn:name="gtia.xpi"/>
+      <outfile xil_pn:name="gtia_pad.csv"/>
+      <outfile xil_pn:name="gtia_pad.txt"/>
+      <outfile xil_pn:name="gtia_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1452706122" xil_pn:in_ck="4543735937896" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1452706092">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="gtia.bgn"/>
+      <outfile xil_pn:name="gtia.bit"/>
+      <outfile xil_pn:name="gtia.drc"/>
+      <outfile xil_pn:name="gtia.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1451311433" xil_pn:in_ck="4543735925042" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="2682241697568822907" xil_pn:start_ts="1451311433">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1451771147" xil_pn:in_ck="4543735925042" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="8482462020707587906" xil_pn:start_ts="1451767288">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1451311421" xil_pn:in_ck="4543735925042" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="2616042522141956104" xil_pn:start_ts="1451311420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1452706091" xil_pn:in_ck="246072804251189025" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1452706074">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="gtia.twr"/>
+      <outfile xil_pn:name="gtia.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1451053630" xil_pn:in_ck="8226122259813448229" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1451053630">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

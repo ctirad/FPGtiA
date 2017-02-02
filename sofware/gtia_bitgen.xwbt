@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/mnt/data/projekty/VHDL/GTIA/gtia.ncd
+OUTFILE=/mnt/data/projekty/VHDL/GTIA/gtia.bit
+FAMILY=Spartan6
+PART=xc6slx25-3ftg256
+WORKINGDIR=/mnt/data/projekty/VHDL/GTIA
+LICENSE=WebPack
+USER_INFO=177480527_0_0_338

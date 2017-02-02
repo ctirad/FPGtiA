@@ -1,0 +1,1301 @@
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
+xst -intstyle ise -ifn "/mnt/data/projekty/VHDL/GTIA/gtia.xst" -ofn "/mnt/data/projekty/VHDL/GTIA/gtia.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miniSpartan6-plus.ucf -p xc6slx25-ftg256-3 gtia.ngc gtia.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gtia_map.ncd gtia.ngd gtia.pcf 
+par -w -intstyle ise -ol high -mt off gtia_map.ncd gtia.ncd gtia.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gtia.twx gtia.ncd -o gtia.twr gtia.pcf -ucf miniSpartan6-plus.ucf 
+bitgen -intstyle ise -f gtia.ut gtia.ncd 
